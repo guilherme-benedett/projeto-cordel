@@ -12,6 +12,10 @@ header{
     background-color: #000000;
     min-height: 200px;
 }
+body{
+    max-width: 100%;
+    min-width: 400px;
+}
 #titulo{
     color: #ffffff;
     text-align: center;
@@ -37,15 +41,41 @@ section > p{
     line-height: 2em;
     width: 88vh;
 }
-.imagem{
+.imagem1{
     height: 100vh;
     background-image: url('imagens/background001.jpg');
     background-attachment: fixed;
     background-size: cover;
+    min-width: 200px;
 }
-.imagem > p{
+.imagem1 > p{
     color: white;
     width: 88vh;
     height: 102vh;
     background-color: #00000062;
+}
+.imagem2{
+    height: 100vh;
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: #000000 1px 1px 1px;
+}
+.imagem2 > p{
+    color: white;
+    background-color: #00000062;
+    text-shadow: #000000 1px 1px 1px;
+    display: inline-block;
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer > a:hover{
+    text-decoration: underline;
+
 }
