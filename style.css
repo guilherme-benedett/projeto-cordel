@@ -1,2 +1,40 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #000000;
+    min-height: 200px;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+}
+min h1{
+    font-size: 5px;
+}
+#bibliografia{
+    color: #ffffff;
+    text-align: center;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#verso1{
+    width: 21vh;
+    padding: 15px;
+}
+img{
+    width: 100%;
+    height: 98vh;
+    background-repeat: no-repeat;
+}
+
