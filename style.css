@@ -11,6 +11,7 @@
 header{
     background-color: #000000;
     color: white;
+    min-height: 300px;
 }
 h1{
     text-align: center;
@@ -26,4 +27,10 @@ p > a{
 }
 p > a:hover{
     text-decoration: underline;
+}
+section > p{
+    font-family: 'Sriracha', cursive;
+    font-size: 53px;
+    font-style: italic;
+    font-weight: 600;
 }
