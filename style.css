@@ -10,72 +10,20 @@
 
 header{
     background-color: #000000;
-    min-height: 200px;
+    color: white;
 }
-body{
-    max-width: 100%;
-    min-width: 400px;
-}
-#titulo{
-    color: #ffffff;
-    text-align: center;
-    padding-top: 50px;
-    font-family: 'Passion One', cursive;
-}
-#bibliografia{
-    color: #ffffff;
+h1{
     text-align: center;
 }
-a:hover{
-    text-decoration: underline;
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
 }
-a{
-    color: #ffffff;
+p > a{
+    color: white;
     text-decoration: none;
 }
-section > p{
-    font-family: 'Sriracha', cursive;
-    font-size: 53px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 2em;
-    width: 88vh;
-}
-.imagem1{
-    height: 100vh;
-    background-image: url('imagens/background001.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    min-width: 200px;
-}
-.imagem1 > p{
-    color: white;
-    width: 88vh;
-    height: 102vh;
-    background-color: #00000062;
-}
-.imagem2{
-    height: 100vh;
-    background-image: url('imagens/background002.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    box-shadow: #000000 1px 1px 1px;
-}
-.imagem2 > p{
-    color: white;
-    background-color: #00000062;
-    text-shadow: #000000 1px 1px 1px;
-    display: inline-block;
-}
-footer{
-    background-color: #000000;
-    text-align: center;
-    padding: 10px;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-footer > a:hover{
+p > a:hover{
     text-decoration: underline;
-
 }
