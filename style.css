@@ -30,25 +30,65 @@ p > a:hover{
 }
 section > p{
     font-family: 'Sriracha', cursive;
-    font-size: 53px;
+    font-size: 48px;
     font-style: italic;
-    font-weight: 500;
-    padding-left: 10px;
+    font-weight: 550;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+    line-height: 100px;
 }
 #imagem1{
     background-image: url('imagens/background001.jpg');
-    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
 }
 #imagem1 > p{
     font-family: 'Sriracha', cursive;
     font-size: 53px;
     font-style: italic;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #00000061;
+    height: 90%;
+    width: 102vh;
+    line-height: 100px;
+}
+#imagem2{
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    
+}
+#imagem2 > p{
+    position: relative;
+    font-family: 'Sriracha', cursive;
+    font-size: 53px;
+    font-style: italic;
     font-weight: 500;
     color: #ffffff;
-    background-image: #00000061;
+    background-color: #00000061;
+    height: 90%;
     width: 92vh;
-    padding-top: 38px;
-
-
+    line-height: 100px;
+}
+footer > p{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer > p > a:hover{
+    text-decoration: underline;
 
 }
