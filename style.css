@@ -6,7 +6,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 header{
     background-color: #000000;
@@ -15,6 +15,9 @@ header{
 }
 h1{
     text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 125px;
+    padding-top: 55px;
 }
 header > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,6 +27,7 @@ header > p{
 p > a{
     color: white;
     text-decoration: none;
+    font-weight: 700;
 }
 p > a:hover{
     text-decoration: underline;
@@ -44,8 +48,8 @@ section > p{
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
 }
 #imagem1 > p{
@@ -64,8 +68,8 @@ section > p{
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     
 }
@@ -77,8 +81,9 @@ section > p{
     font-weight: 500;
     color: #ffffff;
     background-color: #00000061;
+    text-shadow: black 1px 1px 1px;
     height: 90%;
-    width: 92vh;
+    width: 94vh;
     line-height: 100px;
 }
 footer > p{
