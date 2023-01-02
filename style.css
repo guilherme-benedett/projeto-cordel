@@ -8,6 +8,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
+body{
+    min-height: 100vh;
+    background-color: #0000000f;
+}
+
 header{
     background-color: #000000;
     color: white;
@@ -43,6 +48,7 @@ section > p{
     line-height: 100px;
 }
 #imagem1{
+    background-color: #00000034;
     background-image: url('imagens/background001.jpg');
     background-size: 100%;
     background-attachment: fixed;
@@ -64,6 +70,7 @@ section > p{
     line-height: 100px;
 }
 #imagem2{
+    background-color: #00000034;
     background-image: url('imagens/background002.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -74,7 +81,6 @@ section > p{
     
 }
 #imagem2 > p{
-    position: relative;
     font-family: 'Sriracha', cursive;
     font-size: 53px;
     font-style: italic;
