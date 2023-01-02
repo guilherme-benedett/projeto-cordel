@@ -55,14 +55,11 @@ section > p{
     background-image: url('imagens/background002.jpg');
 }
 .imagem{
-    background-color: #00000034;
-    background-size: 100%;
-    background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    background-attachment: fixed;
+    padding: 15px;
+    box-shadow: inset 10px 10px 10px 10px black;
 }
 .imagem > p{
     font-family: 'Sriracha', cursive;
@@ -74,6 +71,7 @@ section > p{
     display: inline-block;
     text-shadow: black 1px 1px 1px;
     line-height: 3em;
+    padding: 5px;
 }
 footer > p{
     background-color: #000000;
