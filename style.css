@@ -48,9 +48,14 @@ section > p{
     padding-bottom: 60px;
     line-height: 3em;
 }
-#imagem1{
-    background-color: #00000034;
+#img1{
     background-image: url('imagens/background001.jpg');
+}
+#img2{
+    background-image: url('imagens/background002.jpg');
+}
+.imagem{
+    background-color: #00000034;
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -59,38 +64,15 @@ section > p{
     padding-bottom: 10px;
     padding-left: 10px;
 }
-#imagem1 > p{
-    font-family: 'Sriracha', cursive;
-    font-size: 3vw;
-    font-style: italic;
-    font-weight: 600;
-    color: #ffffff;
-    background-color: #00000061;
-    height: 90%;
-    width: 102vh;
-    line-height: 3em;
-}
-#imagem2{
-    background-color: #00000034;
-    background-image: url('imagens/background002.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    
-}
-#imagem2 > p{
+.imagem > p{
     font-family: 'Sriracha', cursive;
     font-size: 3vw;
     font-style: italic;
     font-weight: 500;
     color: #ffffff;
     background-color: #00000061;
+    display: inline-block;
     text-shadow: black 1px 1px 1px;
-    height: 90%;
-    width: 94vh;
     line-height: 3em;
 }
 footer > p{
